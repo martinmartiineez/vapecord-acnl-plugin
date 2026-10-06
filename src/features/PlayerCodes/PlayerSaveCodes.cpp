@@ -484,7 +484,7 @@ namespace CTRPluginFramework {
 					Language::getInstance()->get(TextID::DESIGN_DUMP_RESTORE),
 					{ locPattern }
 				);
-				Player::ReloadDesign(player->PatternOrder[dSlot]);
+				Player::ReloadDesign(dSlot);
 			} break;
 
 			case 2:
