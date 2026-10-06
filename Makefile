@@ -99,7 +99,7 @@ SOURCES 	:= 	src \
 				src/platform/ctrpf \
 				src/platform \
 
-PSF 		:= 	$(notdir $(TOPDIR)).plgInfo
+PSF 		:= 	Vapecord-ACNL-Plugin.plgInfo
 
 #---------------------------------------------------------------------------------
 # options for code generation
